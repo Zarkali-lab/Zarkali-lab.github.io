@@ -26,18 +26,11 @@
 <section class="people-section past-members section-pad">
   <div class="people-section-heading"><h2>Past members</h2></div>
   {% if people.past_members %}
-  <div class="people-grid">
+  <div class="past-member-list">
     {% for person in people.past_members %}
-    <article class="person-card reveal">
-      <div class="person-photo">
-        {% if person.photo %}<img src="{{ url(person.photo) }}" alt="{{ person.photo_alt or ('Portrait of ' ~ person.name) }}">{% else %}<span aria-hidden="true">{{ person.initials }}</span><span class="sr-only">Photo to be added for {{ person.name }}</span>{% endif %}
-      </div>
-      <div class="person-meta">
-        <p class="person-role">{{ person.role }}</p>
-        <h3>{{ person.name }}</h3>
-        <p>{{ person.bio }}</p>
-        {% if person.links %}<div class="person-links">{% for link in person.links %}<a href="{{ link.href }}">{{ link.label }}</a>{% endfor %}</div>{% endif %}
-      </div>
+    <article class="past-member-row reveal">
+      <h3>{{ person.name }}</h3>
+      <p>{{ person.description }}</p>
     </article>
     {% endfor %}
   </div>
@@ -45,4 +38,14 @@
   <p class="empty-section-note">Past members will be added here.</p>
   {% endif %}
 </section>
+
+<style>
+  .past-member-list { padding-top: 18px; padding-bottom: 90px; }
+  .past-member-row { display: grid; grid-template-columns: minmax(170px, .35fr) minmax(0, 1fr); gap: 36px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+  .past-member-row h3 { margin: 0; font-size: 1rem; font-weight: 600; }
+  .past-member-row p { margin: 0; max-width: 800px; color: var(--ink-soft); }
+  @media (max-width: 700px) {
+    .past-member-row { grid-template-columns: 1fr; gap: 6px; }
+  }
+</style>
 {% endblock %}
