@@ -1,17 +1,15 @@
 # Zarkali Lab website
 
-Custom static research-lab website + Markdown wiki. Designed for GitHub Pages.
+Custom static research-lab website + Markdown wiki. Configured for Vercel deployment.
 
 ## What is included
 
-- responsive public site: Home, Research, People, Publications
+- responsive public site: Home, Research, People, Join us, Publications
 - searchable Wiki tab
 - wiki articles written in plain Markdown
 - light/dark theme
 - no frontend framework or JS dependency
 - small Python build script using Jinja2 + Mistune
-- GitHub Pages deployment workflow
-- automatic support for `username.github.io/repository/` project paths
 
 ## Local preview
 
@@ -33,11 +31,12 @@ Main site settings:
 site.yml
 ```
 
-Research, people, publications and news:
+Research, people, join, publications and news:
 
 ```text
 content/research.yml
 content/people.yml
+content/join.yml
 content/publications.yml
 content/news.yml
 ```
@@ -48,34 +47,25 @@ Wiki pages:
 content/wiki/*.md
 ```
 
-Add a wiki file with frontmatter:
+## Deploy on Vercel
 
-```md
----
-title: Example page
-category: Research practice
-order: 20
-summary: One-sentence description.
-updated: 2026-10-01
----
+Repository includes `vercel.json` with:
 
-# Example page
-
-Your Markdown here.
+```text
+Install: python3 -m pip install -r requirements.txt
+Build:   python3 build.py
+Output:  dist
 ```
 
-## Publish on GitHub Pages
+In Vercel:
 
-1. Create GitHub repository and copy this project into it.
-2. Push to `main`.
-3. In repository: **Settings → Pages → Build and deployment → Source → GitHub Actions**.
-4. Workflow in `.github/workflows/pages.yml` builds and deploys site.
+1. Add New → Project.
+2. Import `Zarkali-lab/zarkali-lab-website` from GitHub.
+3. Use repository root `./`.
+4. Framework preset: Other.
+5. Deploy.
 
-For custom domain, configure it in GitHub Pages settings. Add `CNAME` handling to workflow if you want domain stored in repo.
-
-## Design notes
-
-Public-facing structure takes cues from modern academic lab sites, while wiki uses a denser documentation layout. Visual system is original: editorial typography, scientific network motif, strong spacing, minimal editorial layout, restrained blue accent and low-dependency interaction.
+Each push to `main` triggers a new production deployment. Other branches and pull requests can receive preview deployments.
 
 ## Project concept images and funder logos
 
