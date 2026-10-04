@@ -15,7 +15,7 @@ areas:
   - focused ultrasound
   concept_image: ''
   concept_alt: ''
-  funder_logo: ''
+  funder_logo: '/assets/img/UKRI logo.png'
   funder_name: UKRI
 
 - title: Boosting cognition in Lewy body disease using focused ultrasound
@@ -27,7 +27,7 @@ areas:
   - MRSI
   concept_image: ''
   concept_alt: ''
-  funder_logo: ''
+  funder_logo: '/assets/img/raceagainstdementia logo.png'
   funder_name: Rosetrees Trust / Race Against Dementia
 
 - title: Magnetic resonance spectroscopy in Lewy body dementia
@@ -39,7 +39,7 @@ areas:
   - biomarker
   concept_image: ''
   concept_alt: ''
-  funder_logo: ''
+  funder_logo: 'RosetreesLogo.png'
   funder_name: Rosetrees, Association of British Neurologists
 
 - title: Biomarkers to track disease severity and disentangle specific pathologies
@@ -49,9 +49,9 @@ areas:
   - quantitative MRI
   - diffusion weighted imaging
   - MRSI
-  concept_image: ''
+  concept_image: 'lbd-vs-hc-map-crop.png'
   concept_alt: ''
-  funder_logo: ''
+  funder_logo: 'PUK logo.svg'
   funder_name: Parkinson's UK, Alzheimer's Research UK
 
 # Past projects use exactly the same fields as current projects.
