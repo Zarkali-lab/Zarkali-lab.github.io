@@ -38,6 +38,7 @@ Make sure to do these things within the first week of getting started:
 1. Read the lab wiki
 2. Get added to the lab Teams channel (ask Angelika)
 3. Get added to the lab Calendar (ask Angelika)
-4. Write a short biography to be added to the lab’s website
-5. Get a GitHub account and link it to the lab’s GitHub at https://github.com/Zarkali-lab
-
+4. Get added to shared research drives
+5. Get a UCL HPC account
+6. Write a short biography to be added to the lab’s website
+7. Get a GitHub account and link it to the lab’s GitHub at https://github.com/Zarkali-lab
