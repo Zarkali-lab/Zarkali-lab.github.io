@@ -24,7 +24,7 @@
     </div>
 
     {% set funders = project.funders or [] %}
-    <div class="project-funder{% if not funders and not project.funder_logo %} is-placeholder{% endif %}">
+    <div class="project-funder{% if not funders and not project.funder_logo %} is-placeholder{% endif %}" style="background: #fff;">
       {% if funders %}
         {% for funder in funders %}
           <img src="{{ url(funder.logo) }}" alt="{{ funder.name or 'Project funder' }} logo">
