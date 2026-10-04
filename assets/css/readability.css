@@ -1,0 +1,83 @@
+/* Readability refinements: reduce the gap between display type and small UI text. */
+
+/* Primary navigation and common small controls */
+.site-nav > a { font-size: 1rem; }
+.button,
+.text-link { font-size: .92rem; }
+.eyebrow,
+.section-kicker { font-size: .78rem; }
+
+/* Research and project metadata */
+.card-number,
+.area-no,
+.project-number { font-size: .82rem; }
+.tag-row span {
+  padding: 4px 8px;
+  font-size: .78rem;
+  line-height: 1.35;
+}
+.empty-section-note { font-size: .96rem; }
+.project-concept.is-placeholder,
+.project-funder.is-placeholder { font-size: .78rem; }
+
+/* News and people */
+.news-item time { font-size: .88rem; }
+.news-item p { font-size: .96rem; }
+.person-role { font-size: .76rem !important; }
+.person-links a { font-size: .9rem; }
+
+/* Publications */
+.pub-toolbar { font-size: .78rem; }
+.pub-item { grid-template-columns: 72px 1fr 42px; }
+.pub-year {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.pub-note { font-size: .75rem; }
+.pub-item p { font-size: .96rem; }
+.pub-arrow {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  align-self: center;
+  justify-self: end;
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  color: var(--accent);
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1;
+  transition: color .2s ease, background .2s ease, border-color .2s ease, transform .2s ease;
+}
+.pub-item:hover .pub-arrow,
+.pub-item:focus-visible .pub-arrow {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+  transform: translate(2px, -2px);
+}
+
+/* Wiki and article metadata */
+.wiki-categories > span,
+.wiki-category,
+.article-nav-group span,
+.article-meta span { font-size: .72rem; }
+.wiki-categories button { font-size: .88rem; }
+.wiki-categories button b,
+.wiki-categories > a,
+.wiki-card-foot,
+.article-sidebar,
+.article-end { font-size: .8rem; }
+.wiki-card p { font-size: .94rem; }
+
+/* Footer and other supporting text */
+.simple-footer-inner { font-size: .9rem; }
+.footer-bottom { font-size: .8rem; }
+
+@media (max-width: 720px) {
+  .site-nav > a { font-size: .96rem; }
+  .pub-item { grid-template-columns: 52px 1fr 38px; gap: 14px; }
+  .pub-arrow { width: 32px; height: 32px; font-size: 1.25rem; }
+}
