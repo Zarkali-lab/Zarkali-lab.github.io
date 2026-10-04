@@ -1,41 +1,90 @@
-/* Readability refinements: reduce the gap between display type and small UI text. */
+/* Shared typography scale: keep text sizes consistent across every page. */
+:root {
+  --type-body: 1rem;
+  --type-support: .92rem;
+  --type-small: .84rem;
+  --type-meta: .8rem;
+  --type-nav: 1rem;
+}
 
-/* Primary navigation and common small controls */
-.site-nav > a { font-size: 1rem; }
+/* Ordinary prose is the same size site-wide. */
+body { font-size: 16px; }
+.hero-dek,
+.lab-vision,
+.page-hero > p:last-child,
+.split-page-hero > p:last-child,
+.wiki-hero > p,
+.research-card p,
+.project-copy > p,
+.area-copy p,
+.news-item p,
+.person-meta > p:not(.person-role),
+.past-member-row p,
+.join-copy,
+.join-copy p,
+.join-copy li,
+.pub-item p,
+.publications-more,
+.wiki-card p,
+.wiki-empty,
+.article-header p,
+.prose,
+.prose p,
+.prose li {
+  font-size: var(--type-body);
+  line-height: 1.65;
+}
+
+/* Primary navigation and common controls. */
+.site-nav > a { font-size: var(--type-nav); }
 .button,
-.text-link { font-size: .92rem; }
-.eyebrow,
-.section-kicker { font-size: .78rem; }
+.text-link { font-size: var(--type-support); }
 
-/* Research and project metadata */
+/* Small labels and metadata use one shared size instead of page-specific values. */
+.eyebrow,
+.section-kicker,
 .card-number,
 .area-no,
-.project-number { font-size: .82rem; }
+.project-number,
+.person-role,
+.pub-toolbar,
+.pub-note,
+.wiki-categories > span,
+.wiki-category,
+.article-nav-group span,
+.article-meta span {
+  font-size: var(--type-small) !important;
+}
+
 .tag-row span {
   padding: 4px 8px;
-  font-size: .78rem;
+  font-size: var(--type-small);
   line-height: 1.35;
 }
-.empty-section-note { font-size: .96rem; }
-.project-concept.is-placeholder,
-.project-funder.is-placeholder { font-size: .78rem; }
 
-/* News and people */
-.news-item time { font-size: .88rem; }
-.news-item p { font-size: .96rem; }
-.person-role { font-size: .76rem !important; }
-.person-links a { font-size: .9rem; }
+.empty-section-note,
+.project-concept.is-placeholder,
+.project-funder.is-placeholder,
+.news-item time,
+.person-links a,
+.wiki-categories button,
+.wiki-categories button b,
+.wiki-categories > a,
+.wiki-card-foot,
+.article-sidebar,
+.article-end,
+.simple-footer-inner,
+.footer-bottom {
+  font-size: var(--type-support);
+}
 
 /* Publications */
-.pub-toolbar { font-size: .78rem; }
 .pub-item { grid-template-columns: 72px 1fr 42px; }
 .pub-year {
-  font-size: 1rem;
+  font-size: var(--type-body);
   font-weight: 600;
   color: var(--ink);
 }
-.pub-note { font-size: .75rem; }
-.pub-item p { font-size: .96rem; }
 .pub-arrow {
   width: 36px;
   height: 36px;
@@ -59,25 +108,8 @@
   transform: translate(2px, -2px);
 }
 
-/* Wiki and article metadata */
-.wiki-categories > span,
-.wiki-category,
-.article-nav-group span,
-.article-meta span { font-size: .72rem; }
-.wiki-categories button { font-size: .88rem; }
-.wiki-categories button b,
-.wiki-categories > a,
-.wiki-card-foot,
-.article-sidebar,
-.article-end { font-size: .8rem; }
-.wiki-card p { font-size: .94rem; }
-
-/* Footer and other supporting text */
-.simple-footer-inner { font-size: .9rem; }
-.footer-bottom { font-size: .8rem; }
-
 @media (max-width: 720px) {
-  .site-nav > a { font-size: .96rem; }
+  .site-nav > a { font-size: var(--type-nav); }
   .pub-item { grid-template-columns: 52px 1fr 38px; gap: 14px; }
   .pub-arrow { width: 32px; height: 32px; font-size: 1.25rem; }
 }
