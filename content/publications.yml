@@ -1,19 +1,19 @@
 publications:
-  - year: 2026
-    title: Replace with featured publication title
-    authors: A. Zarkali, Collaborator A, Collaborator B
-    journal: Journal / preprint
-    note: Featured
-    href: '#'
   - year: 2025
+    title: Evidence for divergent cortical organisation in Parkinson’s disease and Lewy Body Dementia. 
+    authors: Zarkali A, Thomas GEC, Hannaway N, Dobreva I, Grant-Peters M, Callaghan MF, Ryten M, Weil RS. 
+    journal: Nature Communications 16, 11623. 
+    note: Linking neuroimaging with molecular processes
+    href: 'https://www.nature.com/articles/s41467-025-66783-9'
+  - year: 2026
     title: Replace with another recent paper
-    authors: A. Zarkali, Collaborator A, Collaborator B
-    journal: Journal name
-    note: Research article
-    href: '#'
-  - year: 2024
-    title: Replace with a methods or imaging paper
-    authors: A. Zarkali, Collaborator A, Collaborator B
-    journal: Journal name
-    note: Methods
-    href: '#'
+    authors: Zarkali, A., Dobreva, I., Hannaway, N., Bhome, R., Thomas, G.E.C., Carrera, S., Heslegrave, A.J., Veleva, E., Zetterberg, H. and Weil, R.S.
+    journal: Novement Disorders
+    note: Biomarkers tracking progression
+    href: 'https://movementdisorders.onlinelibrary.wiley.com/doi/full/10.1002/mds.70355'
+  - year: 2020
+    title: Differences in network controllability and regional gene expression underlie hallucinations in Parkinson’s disease
+    authors: Angeliki Zarkali, Peter McColgan, Mina Ryten, Regina Reynolds, Louise-Ann Leyland, Andrew J Lees, Geraint Rees, Rimona S Weil
+    journal: Brain
+    note: Visual hallucinations
+    href: 'https://academic.oup.com/brain/article-abstract/143/11/3435/5942718'
