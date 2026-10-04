@@ -50,12 +50,11 @@ current_members:
   photo_alt: Portrait of research collaborator
   bio: sabrina.kalam.15 [at] ucl.ac.uk
   links: []
-past_members:
-  Caoimhe Burne did her master’s project in the lab (2024-2025) investigating the contribution of cerebral amyloid angiopathy to cognitive 
-    decline in Lewy body disease.
-  
-  Steffani Carrera was a research associate (2025-2026) and led a project assessing the sensitivity of ultra high field MRI to detect
-    subfield grey matter nuclei degeneration in association with cognitive and neuropsychiatric symptoms in Lewy body disease. 
 
-  Jonathan Knight was a visiting researcher (2026) and completed a project comparing free-water fraction and quantitative susceptibility 
-    mapping of the Substantia Nigra in Lewy body disease.
+past_members:
+- name: Caoimhe Burne
+  description: Did her master’s project in the lab (2024–2025), investigating the contribution of cerebral amyloid angiopathy to cognitive decline in Lewy body disease.
+- name: Steffani Carrera
+  description: Was a research associate (2025–2026) and led a project assessing the sensitivity of ultra-high-field MRI to detect subfield grey matter nuclei degeneration in association with cognitive and neuropsychiatric symptoms in Lewy body disease.
+- name: Jonathan Knight
+  description: Was a visiting researcher (2026) and completed a project comparing free-water fraction and quantitative susceptibility mapping of the substantia nigra in Lewy body disease.
