@@ -78,7 +78,5 @@ past_projects:
   concept_image: '/assets/img/hallucinations-concept.png'
   concept_alt: ''
   funders:
-  - logo: '/assets/img/PUK logo.svg'
-    name: Parkinson's UK
   - logo: '/assets/img/ARUKlogo.png'
     name: Alzheimer's Research UK
