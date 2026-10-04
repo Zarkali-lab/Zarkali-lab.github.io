@@ -1,6 +1,6 @@
 # Zarkali Lab website
 
-Custom static research-lab website + Markdown wiki. Configured for Vercel deployment.
+Custom static research-lab website + Markdown wiki. Configured for GitHub Pages.
 
 ## What is included
 
@@ -47,25 +47,27 @@ Wiki pages:
 content/wiki/*.md
 ```
 
-## Deploy on Vercel
+## Publish with GitHub Pages
 
-Repository includes `vercel.json` with:
+For the organisation root URL:
 
 ```text
-Install: python3 -m pip install -r requirements.txt
-Build:   python3 build.py
-Output:  dist
+https://zarkali-lab.github.io
 ```
 
-In Vercel:
+this repository must be named:
 
-1. Add New → Project.
-2. Import `Zarkali-lab/zarkali-lab-website` from GitHub.
-3. Use repository root `./`.
-4. Framework preset: Other.
-5. Deploy.
+```text
+Zarkali-lab.github.io
+```
 
-Each push to `main` triggers a new production deployment. Other branches and pull requests can receive preview deployments.
+The workflow in `.github/workflows/pages.yml` automatically detects an organisation/user Pages repository and builds with an empty base path, so internal links and assets resolve from the domain root.
+
+After renaming the repository:
+
+1. Open repository **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. Push to `main`, or run the Pages workflow manually from **Actions**.
 
 ## Project concept images and funder logos
 
