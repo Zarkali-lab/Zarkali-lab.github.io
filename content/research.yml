@@ -3,8 +3,10 @@ intro: We study the brain circuits responsible for cognitive decline in Lewy bod
 # Each project can optionally include:
 # concept_image: /assets/img/project-concept.jpg
 # concept_alt: Short accessible description of the image
-# funder_logo: /assets/img/funder-logo.svg
-# funder_name: Name of funder
+# funders:
+#   - logo: /assets/img/funder-logo.svg
+#     name: Name of funder (used only for image alt text; not displayed)
+# Add as many funders as needed.
 areas:
 - title: Stimulating brain circuits to treat Parkinson's dementia (Stim PD)
   summary: ''
@@ -15,8 +17,9 @@ areas:
   - focused ultrasound
   concept_image: '/assets/img/fus.png'
   concept_alt: ''
-  funder_logo: '/assets/img/UKRI logo.png'
-  funder_name: UKRI
+  funders:
+  - logo: '/assets/img/UKRI logo.png'
+    name: UKRI
 
 - title: Boosting cognition in Lewy body disease using focused ultrasound
   summary: ''
@@ -27,8 +30,11 @@ areas:
   - MRSI
   concept_image: '/assets/img/nbm.png'
   concept_alt: ''
-  funder_logo: '/assets/img/raceagainstdementia logo.png'
-  funder_name: Rosetrees Trust / Race Against Dementia
+  funders:
+  - logo: '/assets/img/raceagainstdementia logo.png'
+    name: Race Against Dementia
+  - logo: '/assets/img/RosetreesLogo.png'
+    name: Rosetrees Trust
 
 - title: Magnetic resonance spectroscopy in Lewy body dementia
   summary: Validate MRSI as a potential biomarker in LBD (cross projects).
@@ -37,10 +43,11 @@ areas:
   - MRSI
   - acetylcholine
   - biomarker
-  concept_image: 'MRSIcho.png'
+  concept_image: '/assets/img/MRSIcho.png'
   concept_alt: ''
-  funder_logo: '/assets/img/RosetreesLogo.png'
-  funder_name: Rosetrees, Association of British Neurologists
+  funders:
+  - logo: '/assets/img/RosetreesLogo.png'
+    name: Rosetrees Trust
 
 - title: Biomarkers to track disease severity and disentangle specific pathologies
   summary: ''
@@ -51,8 +58,11 @@ areas:
   - MRSI
   concept_image: '/assets/img/lbd-vs-hc-map-crop.png'
   concept_alt: ''
-  funder_logo: '/assets/img/PUK logo.svg'
-  funder_name: Parkinson's UK, Alzheimer's Research UK
+  funders:
+  - logo: '/assets/img/PUK logo.svg'
+    name: Parkinson's UK
+  - logo: '/assets/img/ARUKlogo.png'
+    name: Alzheimer's Research UK
 
 # Past projects use exactly the same fields as current projects.
 past_projects: []
