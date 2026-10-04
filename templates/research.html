@@ -8,7 +8,7 @@
 {% macro project_card(project, prefix='area', show_number=true) %}
 <article class="project-card reveal" id="{{ prefix }}-{{ project.number }}">
   <div class="project-copy">
-    {% if show_number %}<div class="project-number">{{ project.number }}</div>{% endif %}
+    {% if show_number and project.number %}<div class="project-number">{{ project.number }}</div>{% endif %}
     <h3>{{ project.title }}</h3>
     <p>{{ project.detail }}</p>
     <div class="tag-row">{% for tag in project.tags %}<span>{{ tag }}</span>{% endfor %}</div>
@@ -23,10 +23,14 @@
       {% endif %}
     </div>
 
-    <div class="project-funder{% if not project.funder_logo %} is-placeholder{% endif %}">
-      {% if project.funder_logo %}
+    {% set funders = project.funders or [] %}
+    <div class="project-funder{% if not funders and not project.funder_logo %} is-placeholder{% endif %}">
+      {% if funders %}
+        {% for funder in funders %}
+          <img src="{{ url(funder.logo) }}" alt="{{ funder.name or 'Project funder' }} logo">
+        {% endfor %}
+      {% elif project.funder_logo %}
         <img src="{{ url(project.funder_logo) }}" alt="{{ project.funder_name or 'Project funder' }} logo">
-        {% if project.funder_name %}<span>{{ project.funder_name }}</span>{% endif %}
       {% else %}
         <span>Funder logo</span>
       {% endif %}
