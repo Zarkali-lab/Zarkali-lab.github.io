@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-hero section-pad compact-hero split-page-hero">
+  <div><h1>Publications</h1></div>
+  <p>Selected papers and preprints from the lab.</p>
+</section>
+<section class="pub-section section-pad">
+  <div class="pub-toolbar"><span>Selected publications</span><span>{{ publications.publications|length }} items</span></div>
+  {% for pub in publications.publications %}
+  <a class="pub-item reveal" href="{{ pub.url }}">
+    <div class="pub-year">{{ pub.year }}</div>
+    <div><span class="pub-note">{{ pub.note }}</span><h2>{{ pub.title }}</h2><p>{{ pub.authors }}</p><p class="journal">{{ pub.journal }}</p></div>
+    <div class="pub-arrow">↗</div>
+  </a>
+  {% endfor %}
+  <p class="publications-more">For an up-to-date list of publications, see <a href="https://scholar.google.com/citations?user=hFu32vUAAAAJ&hl=en">Google Scholar</a>.</p>
+</section>
+{% endblock %}

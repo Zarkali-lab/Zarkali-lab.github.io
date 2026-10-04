@@ -1,0 +1,61 @@
+current_members:
+- name: Dr A. Zarkali
+  role: Principal Investigator
+  initials: AZ
+  photo: ''
+  photo_alt: Portrait of Dr A. Zarkali
+  bio: I am a neurologist with an interest in cognitive neurology and movement disorders. 
+     My clinical and research interest is the aetiology, diagnosis and treatment of Lewy Body Disease. 
+     Specifically, my research aims to shed light on the brain circuits responsible for cognitive decline in Lewy body disease 
+     and use non-invasive stimulation as a novel approach to treatment.
+     a.zarkali [at] ucl.ac.uk
+  links:
+  - label: UCL profile
+    href: 'https://profiles.ucl.ac.uk/52414-angelika-zarkali'
+  - label: ORCID
+    href: 'https://orcid.org/0000-0003-2808-072X'
+# - name: Your postdoc
+#   role: Postdoctoral Research Fellow
+#   initials: PF
+#   photo: ''
+#   photo_alt: Portrait of postdoctoral research fellow
+#   bio: Add short research bio here. Keep each profile to two or three lines for a
+#     clean, consistent grid.
+#   links: []
+- name: Lauren Bishop
+  role: PhD Student
+  initials: LB
+  photo: ''
+  photo_alt: Portrait of PhD researcher
+  bio: lauren.bishop.23 [at] ucl.ac.uk
+  links: []
+- name: Hillary Vossler
+  role: PhD Student
+  initials: HV
+  photo: ''
+  photo_alt: Portrait of research collaborator
+  bio: hillary.vossler.26 [at] ucl.ac.uk
+  links: []
+- name: Patrick Murphy
+  role: Clinical Research Fellow
+  initials: PM
+  photo: ''
+  photo_alt: Portrait of research collaborator
+  bio: patrick.murphy.22 [at] ucl.ac.uk
+  links: []
+- name: Sabrina Kalam
+  role: Clinical Research Fellow
+  initials: PM
+  photo: ''
+  photo_alt: Portrait of research collaborator
+  bio: sabrina.kalam.15 [at] ucl.ac.uk
+  links: []
+past_members:
+  Caoimhe Burne did her master’s project in the lab (2024-2025) investigating the contribution of cerebral amyloid angiopathy to cognitive 
+    decline in Lewy body disease.
+  
+  Steffani Carrera was a research associate (2025-2026) and led a project assessing the sensitivity of ultra high field MRI to detect
+    subfield grey matter nuclei degeneration in association with cognitive and neuropsychiatric symptoms in Lewy body disease. 
+
+  Jonathan Knight was a visiting researcher (2026) and completed a project comparing free-water fraction and quantitative susceptibility 
+    mapping of the Substantia Nigra in Lewy body disease.

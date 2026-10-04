@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero section-pad home-vision">
+  <div class="hero-copy reveal">
+    <h1 class="home-title">Zarkali Lab</h1>
+    <div class="hero-dek lab-vision">
+      <p>We are a computational cognitive neuroscience lab based at the <a href="https://www.ucl.ac.uk/brain-sciences/ion/research/research-centres/dementia-research-centre">Dementia Research Centre</a> at University College London, led by Dr Angeliki Zarkali.</p>
+      <p>Our aim is to understand the brain circuits responsible for cognitive decline in Lewy body disease and develop novel approaches to treatments.</p>
+      <p>To do this, we use a combination of multimodal neuroimaging, cognitive and behavioural tests, fluid biomarkers and non-invasive stimulation techniques such as focused ultrasound.</p>
+      <p>For examples of the research we do, see <a href="{{ url('/research/') }}">research</a> and <a href="{{ url('/publications/') }}">publications</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="concept-collage section-pad" aria-label="Research concept images">
+  <figure class="concept-panel concept-panel-tall reveal">
+    <img src="{{ url('/assets/img/hallucinations-concept.png') }}" alt="Concept image related to visual hallucinations" loading="eager">
+  </figure>
+  <figure class="concept-panel concept-panel-faces reveal">
+    <img src="{{ url('/assets/img/a-sea-of-faces.png') }}" alt="A Sea of Faces visual concept" loading="eager">
+  </figure>
+  <figure class="concept-panel concept-panel-brain reveal">
+    <img src="{{ url('/assets/img/brain-single.png') }}" alt="Rendered cortical brain surface" loading="eager">
+  </figure>
+</section>
+{% endblock %}

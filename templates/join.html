@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-hero section-pad compact-hero">
+  <h1>Join us</h1>
+</section>
+
+<section class="join-sections section-pad">
+  <section class="join-section reveal">
+    <h2>Current opportunities</h2>
+    <div class="join-copy">{{ join.current_opportunities | safe }}</div>
+  </section>
+  <section class="join-section reveal">
+    <h2>PhD students</h2>
+    <div class="join-copy">{{ join.phd_students | safe }}</div>
+  </section>
+  <section class="join-section reveal">
+    <h2>Postdoctoral researchers</h2>
+    <div class="join-copy">{{ join.postdoctoral_researchers | safe }}</div>
+  </section>
+  <section class="join-section reveal">
+    <h2>Undergraduate/Masters students</h2>
+    <div class="join-copy">{{ join.undergraduate_masters_students | safe }}</div>
+  </section>
+</section>
+{% endblock %}

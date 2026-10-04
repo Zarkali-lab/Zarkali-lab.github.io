@@ -1,0 +1,23 @@
+name: Zarkali Lab
+short_name: Lab
+tagline: Computational cognitive neuroscience of Lewy body disease.
+description: Computational cognitive neuroscience lab studying cognitive decline in
+  Lewy body disease.
+institution: Dementia Research Centre, University College London
+location: London, UK
+email: your.lab@ucl.ac.uk
+github: https://github.com/Zarkali-lab
+base_path: ''
+nav:
+- label: Home
+  href: /
+- label: Research
+  href: /research/
+- label: People
+  href: /people/
+- label: Join us
+  href: /join/
+- label: Publications
+  href: /publications/
+- label: Wiki
+  href: /wiki/

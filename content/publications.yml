@@ -1,0 +1,19 @@
+publications:
+  - year: 2026
+    title: Replace with featured publication title
+    authors: A. Zarkali, Collaborator A, Collaborator B
+    journal: Journal / preprint
+    note: Featured
+    href: '#'
+  - year: 2025
+    title: Replace with another recent paper
+    authors: A. Zarkali, Collaborator A, Collaborator B
+    journal: Journal name
+    note: Research article
+    href: '#'
+  - year: 2024
+    title: Replace with a methods or imaging paper
+    authors: A. Zarkali, Collaborator A, Collaborator B
+    journal: Journal name
+    note: Methods
+    href: '#'

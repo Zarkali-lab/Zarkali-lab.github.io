@@ -1,0 +1,61 @@
+intro: We study the brain circuits responsible for cognitive decline in Lewy body disease, using multimodal neuroimaging, cognitive and behavioural testing, fluid biomarkers and non-invasive stimulation techniques.
+
+# Each project can optionally include:
+# concept_image: /assets/img/project-concept.jpg
+# concept_alt: Short accessible description of the image
+# funder_logo: /assets/img/funder-logo.svg
+# funder_name: Name of funder
+areas:
+- number: '01'
+  title: Stimulating brain circuits to treat Parkinson's dementia (Stim PD)
+  summary: 
+  detail: We use multimodal neuroimaging techniques in different populations of people with Parkinson's disease, to identify circuits responsible for Parkinson?s dementia, and apply novel non-invasive ultrasound stimulation on those circuits to improve cognition. By combining multiple sources of information from large numbers of people with Parkinson?s, we will be able to select the best target for non-invasive stimulation of these brain circuits. We will then apply ultrasound simulation to this target in 50 people with Parkinson?s disease.
+  tags:
+  - neuroimaging informed stimulation 
+  - connectomics
+  - focused ultrasound 
+  concept_image: ''
+  concept_alt: ''
+  funder_logo: ''
+  funder_name: 'UKRI'
+
+- number: '02'
+  title: Boosting cognition in Lewy body disease using focused ultrasound
+  summary: 
+  detail: Alterations in acetylcholinergic transmission pay a key role in Lewy body dementia. We investigate the potential of focused ultrasound of the nucleus basalis of Meynert, the main source of acetylcholine in the brain, as a symptomatic treatment to improve cognition and it's effects on brain functional connectivity and metabolism. In collaboration with Oxford university.
+  tags:
+  - Focused ultrasound 
+  - rsFMRI
+  - MRSI
+  concept_image: ''
+  concept_alt: ''
+  funder_logo: ''
+  funder_name: 'Rosetrees trust / Race against dementia'
+
+- number: '03'
+  title: Magnetic resonance spectroscopy in Lewy body dementia
+  summary: Validate  MRSI as a potential biomarker in LBD (cross projects).
+  detail: We assess whether 7T MRSI derived choline can be used as a surrogate biomarker of acetylcholine in dementias. We explore the effect of drug manipulation on repeated measurements in health as well as the techniques ability to capture differences in cognitive severity in disease.
+  tags:
+  - MRSI
+  - acetylcholine
+  - biomarker
+  concept_image: ''
+  concept_alt: ''
+  funder_logo: ''
+  funder_name: 'Rosetrees, Association of British Neurologists'
+
+- number: '04'
+  title: Biomarkers to track disease severity and disentangle specific pathologies
+  summary: 
+  detail: Significant heterogeneity in disease course and underlying pathology poses a unique challenge in LBD. We aim to disentangle that heterogeneity by evaluating different image in Ng biomarkers in LBD.
+  - quantitative MRI
+  - diffusion weighted imaging
+  - MRSI
+  concept_image: ''
+  concept_alt: ''
+  funder_logo: ''
+  funder_name: 'Parkinson's UK, Alzheimer's Research UK'
+
+# Past projects use exactly the same fields as current projects.
+past_projects: []

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="article-shell section-pad">
+  <aside class="article-sidebar">
+    <a class="back-link" href="{{ url('/wiki/') }}">← Wiki home</a>
+    <div class="article-nav-group"><span>On this page</span>{% for h in toc %}<a href="#{{ h.id }}">{{ h.text }}</a>{% endfor %}</div>
+    <div class="article-meta"><span>Category</span><b>{{ page.category }}</b><span>Updated</span><b>{{ page.updated_human }}</b></div>
+  </aside>
+  <article class="wiki-article">
+    <div class="article-header"><span class="wiki-category">{{ page.category }}</span><p>{{ page.summary }}</p></div>
+    <div class="prose">{{ content|safe }}</div>
+    <div class="article-end"><span>Found something outdated?</span><a href="{{ site.github }}">Edit this page on GitHub ↗</a></div>
+  </article>
+</section>
+{% endblock %}

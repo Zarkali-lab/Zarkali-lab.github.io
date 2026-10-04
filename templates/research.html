@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-hero section-pad compact-hero split-page-hero">
+  <div><h1>Research</h1></div>
+  <p>{{ research.intro }}</p>
+</section>
+
+{% macro project_card(project, prefix='area', show_number=true) %}
+<article class="project-card reveal" id="{{ prefix }}-{{ project.number }}">
+  <div class="project-copy">
+    {% if show_number %}<div class="project-number">{{ project.number }}</div>{% endif %}
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.detail }}</p>
+    <div class="tag-row">{% for tag in project.tags %}<span>{{ tag }}</span>{% endfor %}</div>
+  </div>
+
+  <div class="project-assets">
+    <div class="project-concept{% if not project.concept_image %} is-placeholder{% endif %}">
+      {% if project.concept_image %}
+        <img src="{{ url(project.concept_image) }}" alt="{{ project.concept_alt or project.title }}">
+      {% else %}
+        <span>Concept image</span>
+      {% endif %}
+    </div>
+
+    <div class="project-funder{% if not project.funder_logo %} is-placeholder{% endif %}">
+      {% if project.funder_logo %}
+        <img src="{{ url(project.funder_logo) }}" alt="{{ project.funder_name or 'Project funder' }} logo">
+        {% if project.funder_name %}<span>{{ project.funder_name }}</span>{% endif %}
+      {% else %}
+        <span>Funder logo</span>
+      {% endif %}
+    </div>
+  </div>
+</article>
+{% endmacro %}
+
+<section class="project-section section-pad">
+  <div class="project-section-heading">
+    <h2>Current projects</h2>
+  </div>
+  <div class="project-list">
+    {% for project in research.areas %}
+      {{ project_card(project, 'area', false) }}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="project-section past-projects section-pad">
+  <div class="project-section-heading">
+    <h2>Past projects</h2>
+  </div>
+  {% if research.past_projects %}
+  <div class="project-list">
+    {% for project in research.past_projects %}
+      {{ project_card(project, 'past') }}
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="empty-section-note">Past projects will be added here.</p>
+  {% endif %}
+</section>
+{% endblock %}
