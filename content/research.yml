@@ -68,18 +68,17 @@ areas:
 past_projects:
 - title: Understanding the neural circuits of visual hallucinations and cognitive fluctuations in Lewy body disease
   summary: ''
-  detail: Transient symptoms such as visual hallucinations and cognitive fluctuations are characteristic of Lewy body disease, cause significant distress and limit use of treatments for motor symptoms. 
-  We aimed to understand the structural and functional neural correlates of visual hallucinations and cognitive fluctuations in LBD. We showed that hallucinations are associated with an overweighting 
-  prior knowledge together with visuo-spatial dysfunction and showed that this imbalance occurs higher in the cortical hierarchy.
+  detail: >-
+    Transient symptoms such as visual hallucinations and cognitive fluctuations are characteristic of Lewy body disease, cause significant distress and limit use of treatments for motor symptoms. We aimed to understand the structural and functional neural correlates of visual hallucinations and cognitive fluctuations in LBD. We showed that hallucinations are associated with an overweighting of prior knowledge together with visuo-spatial dysfunction and showed that this imbalance occurs higher in the cortical hierarchy.
   tags:
-  - computational modelling 
+  - computational modelling
   - laminar fMRI
   - diffusion weighted imaging
   - dynamic functional connectivity
   concept_image: '/assets/img/hallucinations-concept.png'
   concept_alt: ''
   funders:
-  - logo: '/assets/img/ARUKlogo.png'
+  - logo: '/assets/img/PUK logo.svg'
     name: Parkinson's UK
   - logo: '/assets/img/ARUKlogo.png'
     name: Alzheimer's Research UK
