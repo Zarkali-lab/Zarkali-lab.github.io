@@ -47,22 +47,23 @@ def human_date(value) -> str:
         return str(value)
 
 
-def add_heading_ids(markdown_text: str):
+def add_heading_ids(rendered_html: str):
+    """Add stable IDs to rendered headings without interfering with Markdown parsing."""
     toc = []
     seen = {}
 
     def repl(match):
-        level = len(match.group(1))
-        text = match.group(2).strip()
-        plain = re.sub(r"[*_`~]", "", text)
+        level = int(match.group(1))
+        inner = match.group(2)
+        plain = html.unescape(re.sub(r"<[^>]+>", "", inner)).strip()
         base = slugify(plain) or "section"
         seen[base] = seen.get(base, 0) + 1
         ident = base if seen[base] == 1 else f"{base}-{seen[base]}"
         if level == 2:
             toc.append({"id": ident, "text": plain})
-        return f'<h{level} id="{ident}">{html.escape(plain)}</h{level}>'
+        return f'<h{level} id="{ident}">{inner}</h{level}>'
 
-    transformed = re.sub(r"^(#{1,3})\s+(.+)$", repl, markdown_text, flags=re.M)
+    transformed = re.sub(r"<h([1-3])>(.*?)</h\1>", repl, rendered_html, flags=re.S)
     return transformed, toc
 
 
@@ -104,7 +105,8 @@ def main():
     for path in sorted((CONTENT / "wiki").glob("*.md")):
         meta, body = parse_frontmatter(path)
         slug = re.sub(r"^\d+-", "", path.stem)
-        transformed, toc = add_heading_ids(body)
+        rendered = markdown(body)
+        rendered, toc = add_heading_ids(rendered)
         category = meta.get("category", "General")
         wiki.append({
             **meta,
@@ -112,7 +114,7 @@ def main():
             "category": category,
             "category_slug": slugify(category),
             "updated_human": human_date(meta.get("updated", "")),
-            "content": markdown(transformed),
+            "content": rendered,
             "toc": toc,
         })
     wiki.sort(key=lambda p: (p.get("order", 999), p["title"]))
