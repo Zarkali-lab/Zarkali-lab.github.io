@@ -69,6 +69,7 @@ kbd {
 .project-funder.is-placeholder,
 .news-item time,
 .person-links a,
+.person-email,
 .wiki-categories button,
 .wiki-categories button b,
 .wiki-categories > a,
@@ -79,6 +80,7 @@ kbd {
 .footer-bottom {
   font-size: var(--type-support);
 }
+.person-email { color: var(--ink-soft); }
 
 /* Publications */
 .pub-item { grid-template-columns: 72px 1fr 42px; }
