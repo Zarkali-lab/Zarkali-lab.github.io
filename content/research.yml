@@ -10,7 +10,7 @@ intro: We study the brain circuits responsible for cognitive decline in Lewy bod
 areas:
 - title: Stimulating brain circuits to treat Parkinson's dementia (Stim PD)
   summary: ''
-  detail: We use multimodal neuroimaging techniques in different populations of people with Parkinson's disease, to identify circuits responsible for Parkinson's dementia, and apply novel non-invasive ultrasound stimulation on those circuits to improve cognition. By combining multiple sources of information from large numbers of people with Parkinson's, we will be able to select the best target for non-invasive stimulation of these brain circuits. We will then apply ultrasound stimulation to this target in 50 people with Parkinson's disease.
+  detail: We use multimodal neuroimaging techniques in different populations of people with Parkinson's disease, to identify circuits responsible for Parkinson's dementia, and apply novel non-invasive focused ultrasound stimulation (FUS) on those circuits to improve cognition. By combining multiple sources of information from large numbers of people with Parkinson's, we will be able to select the best target for non-invasive stimulation of these brain circuits. We will then apply FUS stimulation to this target in 50 people with Parkinson's disease.
   tags:
   - neuroimaging informed stimulation
   - connectomics
@@ -23,7 +23,7 @@ areas:
 
 - title: Boosting cognition in Lewy body disease using focused ultrasound
   summary: ''
-  detail: Alterations in acetylcholinergic transmission play a key role in Lewy body dementia. We investigate the potential of focused ultrasound of the nucleus basalis of Meynert, the main source of acetylcholine in the brain, as a symptomatic treatment to improve cognition and its effects on brain functional connectivity and metabolism. In collaboration with Oxford University.
+  detail: Alterations in acetylcholinergic transmission play a key role in Lewy body dementia. We investigate the potential of focused ultrasound stimulation (FUS) of the nucleus basalis of Meynert, the main source of acetylcholine in the brain, as a symptomatic treatment to improve cognition and its effects on brain functional connectivity and metabolism. In collaboration with Oxford University.
   tags:
   - focused ultrasound
   - rsFMRI
@@ -38,7 +38,7 @@ areas:
 
 - title: Magnetic resonance spectroscopy in Lewy body dementia
   summary: Validate MRSI as a potential biomarker in LBD (cross projects).
-  detail: We assess whether 7T MRSI-derived choline can be used as a surrogate biomarker of acetylcholine in dementias. We explore the effect of drug manipulation on repeated measurements in health as well as the technique's ability to capture differences in cognitive severity in disease.
+  detail: We assess whether 7T MRSI-derived choline can be used as a surrogate biomarker of acetylcholine in dementias. We explore the effect of drug manipulation on repeated measurements in healthy participants as well as the technique's ability to capture differences in cognitive severity in disease.
   tags:
   - MRSI
   - acetylcholine
