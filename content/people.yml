@@ -1,5 +1,5 @@
 current_members:
-- name: Dr A. Zarkali
+- name: Dr Angelika Zarkali
   role: Principal Investigator
   initials: AZ
   photo: '/assets/img/people/AZ.jpg'
@@ -22,7 +22,7 @@ current_members:
 #   email: 'name@ucl.ac.uk'
 #   links: []
 - name: Lauren Bishop
-  role: PhD Student
+  role: PhD Student and Research Assistant
   initials: LB
   photo: ''
   photo_alt: Portrait of PhD researcher
@@ -37,7 +37,7 @@ current_members:
   bio: ''
   email: 'hillary.vossler.26 [at] ucl.ac.uk'
   links: []
-- name: Patrick Murphy
+- name: Dr Patrick Murphy
   role: Clinical Research Fellow
   initials: PM
   photo: ''
@@ -45,7 +45,7 @@ current_members:
   bio: ''
   email: 'patrick.murphy.22 [at] ucl.ac.uk'
   links: []
-- name: Sabrina Kalam
+- name: Dr Sabrina Kalam
   role: Clinical Research Fellow
   initials: PM
   photo: ''
