@@ -10,16 +10,17 @@
     <div class="wiki-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><input id="wiki-search" type="search" placeholder="Search pages" autocomplete="off" data-wiki-search><kbd>/</kbd></div>
   </div>
   <div class="wiki-layout">
-    <aside class="wiki-categories" aria-label="Wiki categories">
-      <span>Categories</span>
-      <button class="is-active" data-category="all">All <b>{{ wiki|length }}</b></button>
-      {% for category in categories %}<button data-category="{{ category.slug }}">{{ category.name }} <b>{{ category.count }}</b></button>{% endfor %}
+    <aside class="wiki-pages" aria-label="Wiki pages">
+      <span>Pages</span>
+      {% for page in wiki %}
+        <a href="{{ url('/wiki/' + page.slug + '/') }}">{{ page.title }}</a>
+      {% endfor %}
     </aside>
     <div>
       <div class="wiki-results" data-wiki-results>
       {% for page in wiki %}
-        <a class="wiki-card" href="{{ url('/wiki/' + page.slug + '/') }}" data-wiki-card data-category="{{ page.category_slug }}" data-search="{{ (page.title + ' ' + page.summary + ' ' + page.category)|lower }}">
-          <div><span class="wiki-category">{{ page.category }}</span><h2>{{ page.title }}</h2><p>{{ page.summary }}</p></div>
+        <a class="wiki-card" href="{{ url('/wiki/' + page.slug + '/') }}" data-wiki-card data-search="{{ (page.title + ' ' + page.summary + ' ' + page.category)|lower }}">
+          <div><h2>{{ page.title }}</h2><p>{{ page.summary }}</p></div>
           <div class="wiki-card-foot"><span>Updated {{ page.updated_human }}</span><span>→</span></div>
         </a>
       {% endfor %}
