@@ -86,15 +86,25 @@ kbd {
 }
 .person-email { color: var(--ink-soft); }
 
-/* Wiki home: simple page-title navigation instead of categories. */
+/* Wiki home: one page title per row. */
 .wiki-pages {
-  display: flex;
-  flex-direction: column;
   border-top: 1px solid var(--line-strong);
 }
-.wiki-pages a {
-  padding: 13px 0;
+.wiki-pages ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wiki-pages li {
+  display: block;
+  margin: 0;
+  padding: 0;
   border-bottom: 1px solid var(--line);
+}
+.wiki-pages a {
+  display: block;
+  width: 100%;
+  padding: 13px 0;
   color: var(--ink-soft);
   font-size: var(--type-support);
   line-height: 1.35;
