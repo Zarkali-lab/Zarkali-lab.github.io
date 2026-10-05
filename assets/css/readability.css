@@ -35,6 +35,14 @@ body { font-size: 16px; }
   line-height: 1.65;
 }
 
+/* Markdown emphasis in wiki articles. */
+.prose em,
+.prose i,
+.wiki-article em,
+.wiki-article i {
+  font-style: italic !important;
+}
+
 /* Primary navigation and common controls. */
 .site-nav > a { font-size: var(--type-nav); }
 .button,
@@ -50,7 +58,6 @@ body { font-size: 16px; }
 .pub-toolbar,
 .pub-note,
 .wiki-search-wrap > label,
-.wiki-categories > span,
 .wiki-category,
 .article-nav-group span,
 .article-meta span,
@@ -70,9 +77,6 @@ kbd {
 .news-item time,
 .person-links a,
 .person-email,
-.wiki-categories button,
-.wiki-categories button b,
-.wiki-categories > a,
 .wiki-card-foot,
 .article-sidebar,
 .article-end,
@@ -81,6 +85,24 @@ kbd {
   font-size: var(--type-support);
 }
 .person-email { color: var(--ink-soft); }
+
+/* Wiki home: simple page-title navigation instead of categories. */
+.wiki-pages {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--line-strong);
+}
+.wiki-pages a {
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-soft);
+  font-size: var(--type-support);
+  line-height: 1.35;
+}
+.wiki-pages a:hover,
+.wiki-pages a:focus-visible {
+  color: var(--accent);
+}
 
 /* Publications */
 .pub-item { grid-template-columns: 72px 1fr 42px; }
