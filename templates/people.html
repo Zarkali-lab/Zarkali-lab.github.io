@@ -16,7 +16,12 @@
         <p class="person-role">{{ person.role }}</p>
         <h3>{{ person.name }}</h3>
         <p>{{ person.bio }}</p>
-        {% if person.links %}<div class="person-links">{% for link in person.links %}<a href="{{ link.href }}">{{ link.label }}</a>{% endfor %}</div>{% endif %}
+        {% if person.email or person.links %}
+        <div class="person-links">
+          {% if person.email %}<span class="person-email">{{ person.email }}</span>{% endif %}
+          {% for link in person.links or [] %}<a href="{{ link.href }}">{{ link.label }}</a>{% endfor %}
+        </div>
+        {% endif %}
       </div>
     </article>
     {% endfor %}
