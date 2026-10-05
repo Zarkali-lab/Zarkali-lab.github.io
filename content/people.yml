@@ -6,7 +6,7 @@ current_members:
   photo_alt: Portrait of Dr A. Zarkali
   bio: >-
     Angelika is a neurologist with an interest in cognitive neurology and movement disorders. Her clinical and research interest is the aetiology, diagnosis and treatment of Lewy Body Disease. Specifically, her research aims to shed light on the brain circuits responsible for cognitive decline in Lewy body disease and use non-invasive stimulation as a novel approach to treatment.
-  email: 'a.zarkali@ucl.ac.uk'
+  email: 'a.zarkali [at] ucl.ac.uk'
   links:
   - label: UCL profile
     href: 'https://profiles.ucl.ac.uk/52414-angelika-zarkali'
@@ -27,7 +27,7 @@ current_members:
   photo: ''
   photo_alt: Portrait of PhD researcher
   bio: ''
-  email: 'lauren.bishop.23@ucl.ac.uk'
+  email: 'lauren.bishop.23 [at] ucl.ac.uk'
   links: []
 - name: Hillary Vossler
   role: PhD Student
@@ -35,7 +35,7 @@ current_members:
   photo: ''
   photo_alt: Portrait of research collaborator
   bio: ''
-  email: 'hillary.vossler.26@ucl.ac.uk'
+  email: 'hillary.vossler.26 [at] ucl.ac.uk'
   links: []
 - name: Patrick Murphy
   role: Clinical Research Fellow
@@ -43,7 +43,7 @@ current_members:
   photo: ''
   photo_alt: Portrait of research collaborator
   bio: ''
-  email: 'patrick.murphy.22@ucl.ac.uk'
+  email: 'patrick.murphy.22 [at] ucl.ac.uk'
   links: []
 - name: Sabrina Kalam
   role: Clinical Research Fellow
@@ -51,7 +51,7 @@ current_members:
   photo: ''
   photo_alt: Portrait of research collaborator
   bio: ''
-  email: 'sabrina.kalam.15@ucl.ac.uk'
+  email: 'sabrina.kalam.15 [at] ucl.ac.uk'
   links: []
 
 past_members:
