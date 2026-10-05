@@ -11,9 +11,10 @@ Our ultimate aim is to find a treatment for Lewy body disease, and we believe th
 Three core principles guide the work we do: curiosity, excellence (αριστεία) and virtue (αρετή).
 
 ## Curiosity
-_Πάντες ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει._
-_"All human beings by nature desire to know."_
-_Aristotle, Metaphysics I.1 (980a21)_
+_Πάντες ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει.
+"All human beings by nature desire to know."
+Aristotle, Metaphysics I.1 (980a21).
+_
 
 Aristotle saw the desire to know as part of human nature, and Plato called wonder (θαῦμα) the beginning of philosophy. Curiosity is what drives us toward our goal: a treatment for Lewy body disease will come from understanding how the disease works, and from asking questions nobody has asked yet.
 In practice:
@@ -23,9 +24,10 @@ In practice:
 - Share what excites you with others: new data, papers, ideas and skills.
 
 ## Excellence (Aριστεία)
-_μία γὰρ χελιδὼν ἔαρ οὐ ποιεῖ, οὐδὲ μία ἡμέρα._
-_"One swallow does not make a spring, nor does a single day."_
-_Aristotle, Nicomachean Ethics I.7 (1098a18)_
+_μία γὰρ χελιδὼν ἔαρ οὐ ποιεῖ, οὐδὲ μία ἡμέρα.
+"One swallow does not make a spring, nor does a single day."
+Aristotle, Nicomachean Ethics I.7 (1098a18)
+_
 
 Excellence is built through sustained and patient practice, not a single burst of brilliance. For us, research excellence means striving to do work as well as it can be done. It is about care and craft, not about hours or looking busy.
 In practice:
@@ -35,9 +37,10 @@ In practice:
 - Don't be afraid to learn, and don't be afraid to ask for help. Nobody is expected to know everything.
 
 ## Virtue (Aρετὴ)
-_ἡ δ᾽ ἠθικὴ [ἀρετὴ] ἐξ ἔθους περιγίνεται._
-_"Ethical excellence comes about as a result of habit."_
-_Aristotle, Nicomachean Ethics II.1 (1103a17)_
+_ἡ δ᾽ ἠθικὴ [ἀρετὴ] ἐξ ἔθους περιγίνεται.
+"Ethical excellence comes about as a result of habit."
+Aristotle, Nicomachean Ethics II.1 (1103a17)
+_
 
 Aρετή is excellence of character: the qualities that make someone good not only at science but at being a colleague and a person. 
 We acquire these qualities through practice, so aim to practice in your everyday habits:
