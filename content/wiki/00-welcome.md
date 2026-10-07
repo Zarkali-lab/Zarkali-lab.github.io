@@ -39,6 +39,7 @@ Make sure to do these things within the first week of getting started:
 2. Get added to the lab Teams channel (ask Angelika)
 3. Get added to the lab Calendar (ask Angelika)
 4. Get added to shared research drives
-5. Get a UCL HPC account
-6. Write a short biography to be added to the lab’s website
-7. Get a GitHub account and link it to the lab’s GitHub at https://github.com/Zarkali-lab
+5. Apply for an account on ERN https://ern.ucl.ac.uk/ - once you have your account ask Angelika to add you to the lab notebook
+6. Get a UCL HPC account
+7. Write a short biography to be added to the lab’s website
+8. Get a GitHub account and link it to the lab’s GitHub at https://github.com/Zarkali-lab
