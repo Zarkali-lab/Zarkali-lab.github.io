@@ -42,7 +42,10 @@ current_members:
   initials: PM
   photo: ''
   photo_alt: Portrait of research collaborator
-  bio: ''
+  bio: >-
+    Patrick is a Neurology Specialist Registrar and Association of British Neurologists Clinical Research Training Fellow.
+
+    His PhD project, co-supervised by Angelika and Prof Rimona Weil, aims to use advanced brain scanning to understand how damage to the brain’s cholinergic system — which uses the chemical messenger acetylcholine — contributes to Parkinson's dementia. Patrick will compare a brain structure called the nucleus basalis of Meynert, which is the main source of acetylcholine in the brain, and its connections to other brain structures in patients with Parkinson’s and healthy controls. The study will include a new MRI scan called whole-brain magnetic resonance spectroscopic imaging, which has potential to measure markers of the chemical acetylcholine directly.
   email: 'patrick.murphy.22 [at] ucl.ac.uk'
   links: []
 - name: Dr Sabrina Kalam
