@@ -40,8 +40,8 @@ current_members:
 - name: Dr Patrick Murphy
   role: Clinical Research Fellow
   initials: PM
-  photo: ''
-  photo_alt: Portrait of research collaborator
+  photo: '/assets/img/people/patrick-murphy.jpg'
+  photo_alt: Portrait of Dr Patrick Murphy
   bio: >-
     Patrick is a Neurology Specialist Registrar and Association of British Neurologists Clinical Research Training Fellow.
 
